@@ -10,7 +10,7 @@ import os
 def getOfflineTime(days):
 	OFFSET = 31536000L
 	data_result = 1470545989
-	data_result = data_result - OFFSET + days*3600
+	data_result = data_result - OFFSET + days*3600*24
 	return data_result
  
 
@@ -28,7 +28,7 @@ def getRandom():
  
 if __name__ == '__main__': 
 	timeSpaces = 10
-	days = 0
+	days = 1
 	writeTime = 0
 	setSystemTime(days)
 	
