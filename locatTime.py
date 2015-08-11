@@ -40,8 +40,9 @@ if __name__ == '__main__':
 		os.system('git commit -m "commit"')
 		writeTime = writeTime + 1
 		if writeTime % 6 == 0:
-			setSystemTime(days)
 			days = days + 1
+			setSystemTime(days)
+			
 		time.sleep(timeSpaces)
 		
 	
