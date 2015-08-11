@@ -28,7 +28,7 @@ def getRandom():
  
 if __name__ == '__main__': 
 	timeSpaces = 10
-	days = 1
+	days = 3
 	writeTime = 0
 	setSystemTime(days)
 	
